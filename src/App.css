@@ -3,6 +3,7 @@
   background: #fff;
   margin: 0;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 }
 
 .home{
@@ -118,50 +119,77 @@
   line-height: 33px;
 }
 /**********************************************/
-.imagen-proyecto{
-  width: 403px;
-  height: 325px;
+.contenedor-seccion-proyectos{
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.contenedor-proyecto{
-  width: 403px;
-height: 393px;
+.contenedor-proyectos{
 display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 24px;
+flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
 }
+.contenedor-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+  width: 409px;
+}
+
 .contenedor-titulo-skills{
   display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-padding: 0px;
-gap: 24px;
-
-width: 403px;
-height: 44px;
-
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  height: 44px;
 }
-.contenedor-titulo{
-  display: flex;
-flex-direction: column;
-align-items: flex-start;
-padding: 0px;
-gap: 8px;
-
-width: 169px;
-height: 44px;
-
+.contenedor-titulo-skills h3{
+  font-family: 'Vollkorn', serif;
+  font-weight: 600;
+font-size: 28px;
+line-height: 82.34%;
+margin: 0;
 }
-.contenedor-sitio{
+.contenedor-titulo-skills p{
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 82.34%;
+}
+.contenedor-info-flex{
   display: flex;
-flex-direction: column;
-align-items: center;
-padding: 0px;
-gap: 4px;
-
+  flex-direction: row;
+  align-items: center;
+  gap: 24px;
+  width: 400px;
+  justify-content: space-between;
+}
+.img-proyecto-size{
+  width: 400px;
+  transition: .3s;
+    opacity: 0.55;
+    backdrop-filter: blur(0px);
+}
+.img-proyecto-size:hover{
+  opacity: 1;
+    cursor: pointer;
+    backdrop-filter: none;
+    transform: scale(1.05);
+}
+.btn-sitio{
+  border: 1px solid #565656;
+border-radius: 18px;
 width: 65px;
 height: 26px;
-
+padding: 10px;
+color: #000000;
+}
+.btn-sitio span{
+  font-size: 12px;
+  font-family: 'Manrope', sans-serif;
+  font-weight: 400;
 }

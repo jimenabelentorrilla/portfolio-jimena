@@ -14,7 +14,7 @@ function Home() {
                 <div>
                     <ul className='nav-ul'>
                         <li>
-                            <a className="li-black" href="">Proyectos</a>
+                            <a className="li-black" href="#proyectos">Proyectos</a>
                         </li>
                         <li>
                             <a className="li-violet" href="">Descargar CV</a>
@@ -39,9 +39,8 @@ function Home() {
                 <h1>Frontend Developer</h1>
             </div>
             <div className='home-group-4'>
-                
                 <div className='line-7'></div>
-                <p>Con habilidades en React, CSS, JavaScript y Bootstrap, me enfoco en crear webs optimizadas y eficientes. Busco siempre mejorar la interacción humana con la tecnología y ofrecer una navegación fluida y agradable.</p>
+                <p>Con habilidades en React, CSS, JavaScript y Bootstrap, me enfoco en crear webs optimizadas y eficientes. Busco siempre mejorar la experiencia de los usuarios y ofrecer una navegación fluida y agradable.</p>
             </div>
         </div>
     </div>
