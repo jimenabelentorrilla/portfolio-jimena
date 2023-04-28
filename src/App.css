@@ -55,16 +55,6 @@
   color: #831ED2;
 }
 
-.nav-icons{
-  display: flex;
-  flex-direction: row;
-  gap: 20px;
-}
-.nav-icon{
-  width: 37px;
-  height: auto;
-}
-
 /*frame24*/
 .frame-24{
   width: 1165px;
@@ -98,7 +88,7 @@
 .home-frame-21 p{
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 27px;
   opacity: 0.8;
 }
@@ -121,6 +111,9 @@
 }
 .home-group-4 p{
   width: 486px;
+}
+.home-group-4 p ,
+.contenedor-texto-sm p{
   height: 198px;
   font-family: 'Manrope', sans-serif;
   font-weight: 400;
@@ -128,13 +121,12 @@
   line-height: 33px;
   opacity: 0.8;
 }
-/**********************************************/
+/********Proyectos********/
 .contenedor-seccion-proyectos{
   height: 670px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 104px;
   flex-direction: column;
 }
 .contenedor-title-proy{
@@ -147,7 +139,8 @@
   width: 1236px;
   height: 100px;
 }
-.contenedor-title-proy h2{
+.contenedor-title-proy h2 , 
+.contenedor-texto-sm h2 {
   font-family: 'Vollkorn', serif;
   font-weight: 500;
   font-size: 48px;
@@ -230,4 +223,63 @@ justify-content: center;
 }
 .btn-sitio a{
   color: #000;
+}
+/********Sobre mi*********/
+.contenedor-sobremi{
+  height: 640px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 104px;
+    align-items: center;
+    gap: 60px;
+}
+.contenedor-texto-sm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 21px;
+  width: 586px;
+}
+.contenedor-texto-sm p{
+  width: 583px;
+}
+.contenedor-img-sm{
+  display: flex;
+  justify-content: center;
+  width: 586px;
+}
+.contenedor-img-sm img{
+  width: 400px;
+  animation: updown 3s linear infinite;
+}
+@keyframes updown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
+/********Footer********/
+.contenedor-footer{
+  display: flex;
+  padding: 0px 104px;
+  border-top: 1px solid #4b556357;
+  justify-content: center;
+  align-items: center;
+  height: 107px;
+}
+.nav-icons{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.nav-icon{
+  width: 37px;
+  height: auto;
 }
