@@ -7,7 +7,7 @@ import ProyectoDos from "./assets/streaming.png";
 
 function App() {
   return (
-    <>
+    <div className='app'>
       <Home />
       <div className='contenedor-seccion-proyectos'>
         <div id="proyectos" className='contenedor-proyectos'>
@@ -31,7 +31,7 @@ function App() {
         </div>
       </div>
       
-    </>
+    </div>
   )
 }
 

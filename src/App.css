@@ -5,9 +5,11 @@
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
-.home{
+.app{
   background-image: url("./assets/bg.png");
+  background-repeat: no-repeat;
+}
+.home{
   width: 1440px;
   height: 885.85px;
 }
