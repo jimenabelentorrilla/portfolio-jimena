@@ -13,20 +13,10 @@ function Home() {
                 </div>
                 <div>
                     <ul className='nav-ul'>
-                        <li>
-                            <a className="li-black" href="#proyectos">Proyectos</a>
-                        </li>
-                        <li>
-                            <a className="li-violet" href="">Descargar CV</a>
-                        </li>
-                        <li>
-                            <a className="li-black"href="">Sobre mi</a>
-                        </li>
+                        <li><a className="li-black" href="#proyectos">Proyectos</a></li>
+                        <li><a className="li-black" href="#sobremi">Sobre mi</a></li>
+                        <li><a className="li-violet" href="">Descargar CV</a></li>
                     </ul>
-                </div>
-                <div className='nav-icons'>
-                <a href="https://github.com/jimenabelentorrilla" target="_blank"><FontAwesomeIcon icon={faGithub} size='2x' style={{ color: '#000' }} /></a>
-                <a href="https://www.linkedin.com/in/jimena-belen-torrilla/" target="_blank"><FontAwesomeIcon icon={faLinkedin} size='2x' style={{ color: '#000' }} /></a>
                 </div>
             </div>
         </nav>
@@ -34,13 +24,13 @@ function Home() {
             <div className='home-group-3'>
                 <div className='home-frame-21'>
                     <div className='line-7'></div>
-                    <p>Hola, soy Jimena Belén Torrilla</p>
+                    <p>Frontend developer</p>
                 </div>
-                <h1>Frontend Developer</h1>
+                <h1>Jimena <span className='sangria-h1'>Torrilla</span></h1>
             </div>
             <div className='home-group-4'>
                 <div className='line-7'></div>
-                <p>Con habilidades en React, CSS, JavaScript y Bootstrap, me enfoco en crear webs optimizadas y eficientes. Busco siempre mejorar la experiencia de los usuarios y ofrecer una navegación fluida y agradable.</p>
+                <p>Con habilidades en React, CSS, JavaScript y Bootstrap, me enfoco en crear webs optimizadas y eficientes. Busco siempre mejorar la experiencia de los usuarios y ofrecer una navegación fluida y agradable. saradasdasdasdadasdasdasdsadsa</p>
             </div>
         </div>
     </div>

@@ -11,23 +11,8 @@ function App() {
       <Home />
       <div className='contenedor-seccion-proyectos'>
         <div id="proyectos" className='contenedor-proyectos'>
-          <Proyects 
-          imagen={ProyectoUno}
-          titulo="Portfolio Fotografia"
-          skills="React - CSS"
-          linkSitio="https://photography-portfolio-jiment4.netlify.app/"
-          />
-          <Proyects 
-          imagen={ProyectoUno}
-          titulo="Portfolio Fotografia"
-          skills="React - CSS"
-          linkSitio="https://photography-portfolio-jiment4.netlify.app/"
-          /><Proyects 
-          imagen={ProyectoUno}
-          titulo="Portfolio Fotografia"
-          skills="React - CSS"
-          linkSitio="https://photography-portfolio-jiment4.netlify.app/"
-          />   
+          
+          
         </div>
       </div>
       

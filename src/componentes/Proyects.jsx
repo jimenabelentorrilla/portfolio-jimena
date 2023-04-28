@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Proyects( {imagen, titulo, skills, linkSitio}) {
+function Proyects( { imagen, titulo, skills, linkSitio }) {
     return (
         <div className='contenedor-card'>
             <a target="_blank" href={linkSitio}><img className="img-proyecto-size" src={imagen} /></a>
@@ -9,8 +9,8 @@ function Proyects( {imagen, titulo, skills, linkSitio}) {
                     <h3>{titulo}</h3>
                     <p>{skills}</p>
                 </div>
-                <div>
-                    <a className='btn-sitio' target="_blank" href={linkSitio}><span>Ver sitio</span></a>
+                <div className='btn-sitio'>
+                    <a href={linkSitio} target="_blank"><span>Ver sitio</span></a>
                 </div>
             </div>
         </div>
