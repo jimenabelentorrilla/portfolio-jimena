@@ -8,7 +8,7 @@ function About() {
             <div className='contenedor-texto-sm'> 
                 <h2>Sobre mi</h2>
                 <div className='line-7'></div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem ipsam ullam aspernatur placeat dignissimos vero commodi labore non minus, fugit ratione numquam iusto facilis magnam quos velit voluptatem iure at Lorem ipsum dolor sit.</p>
+                <p>Soy una apasionada del <b>desarrollo web</b> en constante evolución. Hace un año comencé a estudiar y desde entonces no he dejado de aprender. Soy <b>meticulosa</b> en mi trabajo, me tomo muy en serio cada proyecto. Disfruto de cada nuevo desafío que se me presenta y estoy siempre en búsqueda de adquirir nuevas habilidades.</p>
             </div>
             <div className='contenedor-img-sm'>
                 <img src={Desk}/>
