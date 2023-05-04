@@ -18,7 +18,8 @@ function Home() {
                 </div>
             </div>
         </nav>
-        <div className='frame-24 animate__animated animate__fadeIn'>
+        <div className='home-flex'>
+            <div className='frame-24 animate__animated animate__fadeIn'>
             <div className='home-group-3'>
                 <div className='home-frame-21'>
                     <div className='line-7'></div>
@@ -31,6 +32,8 @@ function Home() {
                 <p>Busco ofrecer soluciones innovadoras y agradables a cada proyecto. Con habilidades en tecnologías como <b>React, CSS, JavaScript, Bootstrap, Sass y Git</b>, me enfoco en crear webs optimizadas, eficientes y creativas. </p>
             </div>
         </div>
+        </div>
+        
     </div>
 );
 }
