@@ -22,7 +22,7 @@ function App() {
         <Proyects 
           imagen={ProyectoUno}
           titulo="Portfolio Fotografia"
-          skills="React - sarasa - CSS"
+          skills="React - CSS"
           linkSitio="https://photography-portfolio-jiment4.netlify.app/" />
           <Proyects 
           imagen={ProyectoDos}
