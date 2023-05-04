@@ -304,20 +304,21 @@
     justify-content: center;
     align-items: center;
     width: 428px;
+    height: 550px;
   }
   .home-group-3 h1{
     width: 359px;
     height: 132px;
-    font-size: 80px;
+    font-size: 70px;
     margin: 0;
   }
   .home-group-4{
     width: 360px;
   }
   .home-group-4 p{
-    font-size: 17.5802px;
+    font-size: 15px;
     line-height: 24px;
-    width: 356px;
+    width: 330px;
   }
   .frame-24 {
     width: 360px;
@@ -340,6 +341,7 @@
   }
   .nav-frame-23{
     width: 428px;
+    height: 90px;
   }
   .nav-g4{
     width: 428px;
@@ -348,13 +350,14 @@
   }
   .contenedor-title-proy{
     flex-direction: column;
-    padding: 10px;
+    padding: 0px 30px;
     gap: 10px;
     height: 88px;
-    width: 384px;
+    width: 330px;
   }
   .contenedor-sobremi{
-    padding: 19px;
+    padding: 30px;
+    height: 560px;
   }
   .contenedor-img-sm{
     display: none;
@@ -374,5 +377,11 @@
   }
   .contenedor-titulo-skills h3{
     font-size: 20px;
+  }
+  .contenedor-footer{
+    height: 90px;
+  }
+  .nav-ul li a{
+    font-size: 14px;
   }
 }
