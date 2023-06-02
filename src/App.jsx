@@ -7,7 +7,7 @@ import Footer from "./componentes/Footer";
 /*assets*/
 import ProyectoUno from "./assets/portfolio.png";
 import ProyectoDos from "./assets/streaming.png";
-import ProyectoTres from "./assets/burger.jpg";
+import ProyectoTres from "./assets/gourmet.jpg";
 
 function App() {
   return (
@@ -28,12 +28,12 @@ function App() {
           imagen={ProyectoDos}
           titulo="Streaming Website"
           skills="React - CSS"
-          linkSitio="https://photography-portfolio-jiment4.netlify.app/" />
+          linkSitio="#" />
         <Proyects 
           imagen={ProyectoTres}
-          titulo="Burger Landing"
-          skills="React - CSS"
-          linkSitio="https://photography-portfolio-jiment4.netlify.app/" />
+          titulo="Gourmet Burger"
+          skills="React - CSS - Bootstrap"
+          linkSitio="https://gourmet-burger-kitchen.netlify.app/" />
         </div>
       </div>
       <About />
