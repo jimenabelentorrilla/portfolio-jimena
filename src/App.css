@@ -138,6 +138,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  padding: 50px 0px;
+
 }
 .row-proyectos{
   display: flex;
@@ -243,7 +245,6 @@
   height: fit-content;
   display: flex;
   align-items: center;
-  justify-content: center;
   padding: 55px 0px;
 }
 .contenedor-texto-sm{
